@@ -1,0 +1,157 @@
+.logo{
+    height:150px;
+    width:150px;
+    background-image: url("logo.jfif");
+    background-size: cover;
+   margin-left:43%;
+
+}
+#naiya{
+    display: flex;
+    justify-content: center;
+    
+    border: 2px solid transparent;
+    display:inline;
+    margin-left:40%;
+    margin-top: 20px;
+    line-height: 90px;
+   
+    
+}
+#naiya a{
+    padding-left: 10px;
+}
+
+#naiya:hover{
+    border: 2px solid yellow;
+    }
+    .image{
+        
+        height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+    }
+    .one{
+    background-image: url("one.jfif");
+   
+    background-size: cover;
+    height: 300px;
+    width:300px
+    }
+    .two{
+        background-image: url("two.jfif");
+       
+        background-size: cover;
+        height: 300px;
+        width:300px
+        }
+        .three{
+            background-image: url("three.jfif");
+           
+            background-size: cover;
+            height: 300px;
+            width:300px
+            }
+
+            .image1{
+        
+                height: 300px;
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-wrap: wrap;
+                    
+            }
+            .border{
+                border: 2px solid transparent;
+            }
+            .border1:hover{
+                border: 2px solid black;
+            }
+
+            .four{
+            background-image: url("four.jfif");
+           
+            background-size: cover;
+            height: 300px;
+            width:300px
+            }
+            .five{
+                background-image: url("five.jfif");
+               
+                background-size: cover;
+                height: 300px;
+                width:300px
+                }
+                .six{
+                    background-image: url("six.jfif");
+                   
+                    background-size: cover;
+                    height: 300px;
+                    width:300px
+                    }
+
+    .video
+       {
+        background-image: url("video.jfif" );
+                   
+                    background-size: cover;
+                    height: 300px;
+                    width:300px
+       }
+       *{
+        mrgin:0;
+        padding:0;
+       }
+
+       .image2{
+        
+        height: 300px;
+            display: flex;
+            justify-content: space-evenly;
+    }
+    .seven{
+    background-image: url("seven.jfif");
+   
+    background-size: cover;
+    height: 300px;
+    width:300px
+    }
+    .eight{
+        background-image: url("8.jfif");
+       
+        background-size: cover;
+        height: 300px;
+        width:300px
+        }
+        .nine{
+            background-image: url("9.jfif");
+           
+            background-size: cover;
+            height: 300px;
+            width:300px
+            }
+
+
+            /* ✅ Make images responsive */
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+/*  Make layout responsive for mobile */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    padding: 10px;
+  }
+}
